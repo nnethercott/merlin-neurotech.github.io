@@ -12,6 +12,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Team from './pages/Team';
 import Initiatives from './pages/Initiatives';
+import Contact from './pages/Contact';
+import ContactForm from './components/ContactForm';
 
 function App() {
   return (
@@ -27,6 +29,10 @@ function App() {
             </Route>
             <Route exact path="/initiatives">
               <Initiatives />
+            </Route>
+            <Route exact path="/contact">
+              <Contact />
+              <ContactForm />
             </Route>
             <Route exact path="/">
               <Home />

@@ -23,6 +23,9 @@ function Nav() {
                 <li classNmae="nav-item">
                     <Link className="nav-link" to="/initiatives">Initiatives</Link>
                 </li>
+                <li classNmae="nav-item">
+                    <Link className="nav-link" to="/contact">Contact Us</Link>
+                </li>
                 </ul>
             </div>
         </nav>
