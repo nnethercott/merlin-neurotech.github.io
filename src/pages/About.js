@@ -8,8 +8,11 @@ function About() {
             <Header title="About Merlin Neurotech" />
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-12">
-                        <SubHeader title="What Are We" />
+                    <div className="col-sm-1"></div>
+                    <div className="col-sm-10">
+                    <SubHeader title="Welcome to Merlin Neurotech" />
+                        <p>We are a student organization run out of Queen's University 
+                            which develop, teach, and innovate using Neurotechnology! </p>
                         <p>Imagine living in a world where any of these are used in 
                             your everyday life. <br />
                             a) A device that sends weak electrical pulses into the 
@@ -97,6 +100,7 @@ function About() {
                             appreciate any expertise and mentorship in this manner. 
                             </p>
                     </div>
+                    <div className="col-sm-1"></div>
                 </div>
             </div>
         </div> 
