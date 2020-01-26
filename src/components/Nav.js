@@ -20,10 +20,10 @@ function Nav() {
                 <li className="nav-item">
                     <Link className="nav-link" to="/team">Team</Link>
                 </li>
-                <li classNmae="nav-item">
+                <li className="nav-item">
                     <Link className="nav-link" to="/initiatives">Initiatives</Link>
                 </li>
-                <li classNmae="nav-item">
+                <li className="nav-item">
                     <Link className="nav-link" to="/contact">Contact Us</Link>
                 </li>
                 </ul>

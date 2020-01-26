@@ -7,23 +7,21 @@ function Contact() {
         <div>
             <Header title="Get Involved" />
             <div className="container">
+                <SubHeader title="Contact Us!" />
                 <div className="row">
-                    <div className="col-sm-12">
-                        <SubHeader title="Contact Us" />
-                        <p>Imagine living in a world where any of these are used in 
-                            your everyday life. <br />
-                            a) A device that sends weak electrical pulses into the 
-                            user’s brain with the intent of enhancing the efficiency 
-                            of physical training, <br />
-                            b) Brain implants to directly link human minds to 
-                            computers. These are devices that allow people to control 
-                            software and devices using only their brain activity in real-time. <br />
-                            c) Vehicle neuroconfigurators to anticipate drivers’ actions. <br />
-                            d) AI-driven neuromarketing, which aims to provide insights 
-                            into the subconscious motivations of consumers.  <br />
+                <div className="col-sm-3"></div>
+
+                    <div className="col-sm-6">
+                        <p> <br /> 
+                            Interested in getting involved, learning more, or sponsoring us? 
+                            <br />
+                            Reach out here and we will do our best to get back to you in a timely manner!
                         </p>
 
                     </div>
+
+                    <div className="col-sm-3"></div>
+
                 </div>
             </div>
         </div> 
