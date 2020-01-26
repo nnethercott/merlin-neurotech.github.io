@@ -1,9 +1,13 @@
 header.home-header {
   text-align: center;
-
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   img.brain-img {
     width: 700px;
     opacity: .5;
+    align-self: center;
   }
   .intro-heading {
     position: absolute;

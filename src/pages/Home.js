@@ -8,7 +8,7 @@ import { Canvas, useFrame } from 'react-three-fiber'
 function Home() {
     return (
         <div style={{overflow: 'scroll'}}>
-            <MainHeader />
+            <HomeHeader />
             <div className="container">
                 <div className="row">
                     <div className="col-sm-1"></div>
