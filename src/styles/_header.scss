@@ -1,0 +1,25 @@
+header.home-header {
+  text-align: center;
+
+  img.brain-img {
+    width: 700px;
+    opacity: .5;
+  }
+  .intro-heading {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 120px;
+    margin-left: 80px;
+    text-align: left;
+    max-width: 480px;
+    h1 {
+      font-weight: 700;
+      text-transform: uppercase;
+
+    }
+  }
+}
