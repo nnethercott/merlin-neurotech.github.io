@@ -10,7 +10,7 @@ function HomeHeader(props) {
     return (
         <header className="home-header off-white">
             <Nav />
-            <div className="container my-auto">
+            <div className="container my-auto nav-offset">
               <div className="row">
                 <div className="col-sm-6 my-auto">
                   <div className="intro-heading">

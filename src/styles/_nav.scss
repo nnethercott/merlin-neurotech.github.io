@@ -1,5 +1,13 @@
 nav.navbar {
   z-index: 2;
+  .nav-link.highlight {
+    background-color: $blue;
+    color: $off-white;
+    border-radius: 0px;
+    border: none;
+    padding: 6px 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0, 0.5);
+  }
   .navbar-toggler {
     &:focus {
       outline: none;
@@ -73,6 +81,9 @@ nav.navbar {
   .navbar-brand {
     .logo {
       width: 100px;
+      @include media-breakpoint-down(sm) {
+        width: 80px;
+      }
     }
   }
   .navbar-toggler {

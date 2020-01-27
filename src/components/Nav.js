@@ -21,7 +21,7 @@ class Nav extends React.Component {
       <nav className={"navbar navbar-expand-lg fixed-top off-white " + (this.state.toggled ? "toggled" : "")}>
         <div className={(this.state.toggled ? "mobile-container":"container")}>
           <div className={"interface container " + (this.state.toggled ? "toggled" : "")}>
-            <a className="navbar-brand" href="#"><img className="logo" src={Logo} /></a>
+            <Link className="navbar-brand" to="/"><img className="logo" src={Logo} /></Link>
             <button className="navbar-toggler" type="button" onClick={this.handleToggle}>
                 <span className="bar"></span>
                 <span className="bar"></span>

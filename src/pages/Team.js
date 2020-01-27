@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import SubHeader from '../components/SubHeader';
+import Footer from '../components/Footer';
 import fullteam from '../assets/headshots/team.jpg';
 import lukas from '../assets/headshots/lukas.jpg';
 import julia from '../assets/headshots/julia.jpg';
@@ -14,56 +15,71 @@ function Team() {
     return (
         <div>
             <Header title="Our Team"/>
-            <SubHeader title="Our Team" />
-            <div className="container">
+            <section className="team-members">
+              <div className="container">
                 <div className="row">
-                    <img src={fullteam} className="img-fluid" />
-                    <div className="col-sm-4">
-                    <br />
-                        <p>
-                            <b> Abigail Holland </b> <br />
-                            President <br />
-                            <img src={abby} className="img-fluid" />
-                            </p>  
-                            <br />
-                        <p>
-                            <b> Shawn Carere </b> <br />
-                            Backend Development Lead <br />
-                            <img src={shawn} className="img-fluid" />
-                            </p> 
+                  <div className="col-sm-4">
+                    <div className="team-member">
+                      <img src={abby} className="img-fluid" />
+                      <h3>Abigail Holland</h3>
+                      <p>President</p>
                     </div>
-                    <div className="col-sm-4">
-                        <br />
-                        <p>
-                            <b> Julia Maine </b> <br />
-                            Director of Operations <br />
-                            <img src={julia} className="img-fluid" />
-                            </p>  
-                        <br /> 
-                        <p>
-                            <b> Sam White </b> <br />
-                            Backend Development Lead <br />
-                            <img src={sam} className="img-fluid" />
-                            </p> 
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="team-member">
+                      <img src={julia} className="img-fluid" />
+                      <h3>Julia Maine</h3>
+                      <p>Director of Operations</p>
                     </div>
-                    <div className="col-sm-4">
-                    <br />
-                        <p>
-                            <b> Lukas Bauer </b> <br />
-                            Director of Education <br />
-                            <img src={lukas} className="img-fluid" />
-                            </p>   
-                        <br /> 
-                        <p>
-                            <b> Cam McKay </b> <br />
-                            Backend Development Lead <br />
-                            <img src={cam} className="img-fluid" />
-                            </p> 
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="team-member">
+                      <img src={lukas} className="img-fluid" />
+                      <h3>Lukas Bauer</h3>
+                      <p>Director of Education</p>
                     </div>
-
+                  </div>
                 </div>
-            </div>
-        </div> 
+              </div>
+            </section>
+            <section className="group-photo">
+              <div className="container">
+                <div className="row">
+                  <div className="col-sm-12">
+                    <img src={fullteam} className="img-fluid" />
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className="team-members">
+              <div className="container">
+                <div className="row">
+                  <div className="col-sm-4">
+                    <div className="team-member">
+                      <img src={shawn} className="img-fluid" />
+                      <h3>Shawn Carere</h3>
+                      <p>Backend Development Lead</p>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="team-member">
+                      <img src={sam} className="img-fluid" />
+                      <h3>Sam White</h3>
+                      <p>Backend Development Lead</p>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="team-member">
+                      <img src={cam} className="img-fluid" />
+                      <h3>Cam McKay</h3>
+                      <p>Backend Development Lead</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <Footer />
+          </div>
     )
 }
 export default Team;

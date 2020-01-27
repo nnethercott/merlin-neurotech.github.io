@@ -32,16 +32,15 @@ function App() {
             </Route>
             <Route exact path="/contact">
               <Contact />
-              <ContactForm />
             </Route>
             <Route exact path="/">
               <Home />
             </Route>
-            
+
           </Switch>
       </div>
     </Router>
-    
+
   );
 }
 

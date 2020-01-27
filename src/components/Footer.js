@@ -10,7 +10,7 @@ function Footer(props) {
         <footer className="normal-footer off-white">
             <div className="container">
               <div className="row">
-                <div className="col-sm-3">
+                <div className="col-sm-3 footer-logo-container">
                   <img className="footer-logo" src={Logo} />
                 </div>
                 <div className="col-sm-6 my-auto">

@@ -1,5 +1,13 @@
 footer.normal-footer {
   padding: 40px 0;
+  .footer-logo-container {
+    @include media-breakpoint-down(sm) {
+        text-align: center;
+        .footer-logo {
+          margin-bottom: 16px;
+        }
+    }
+  }
   .footer-logo {
     width: 100px;
   }
@@ -8,6 +16,10 @@ footer.normal-footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    @include media-breakpoint-down(sm) {
+        flex-direction: column;
+        margin-bottom: 16px;
+    }
     .footer-link {
       margin: auto 16px;
       color: #000;
