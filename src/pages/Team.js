@@ -100,14 +100,14 @@ function Team() {
                   <div className="col-sm-4">
                     <div className="team-member">
                       <img src={mo} className="img-fluid" />
-                      <h3>Mo </h3>
+                      <h3>Mohammad Rashid </h3>
                       <p>Backend Developer</p>
                     </div>
                   </div>
                   <div className="col-sm-4">
                     <div className="team-member">
                       <img src={theo} className="img-fluid" />
-                      <h3>Theo </h3>
+                      <h3>Theo Raptis </h3>
                       <p>Backend Developer</p>
                     </div>
                   </div>
@@ -117,24 +117,17 @@ function Team() {
             <section className="team-members">
               <div className="container">
                 <div className="row">
-                  <div className="col-sm-4">
+                  <div className="col-sm-6">
                     <div className="team-member">
                       <img src={josh} className="img-fluid" />
                       <h3>Josh Kanattu</h3>
                       <p>Backend Developer</p>
                     </div>
                   </div>
-                  <div className="col-sm-4">
+                  <div className="col-sm-6">
                     <div className="team-member">
                       <img src={derek} className="img-fluid" />
                       <h3>Derek Zhang </h3>
-                      <p>Backend Developer</p>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="team-member">
-                      <img src={theo} className="img-fluid" />
-                      <h3>Theo </h3>
                       <p>Backend Developer</p>
                     </div>
                   </div>
@@ -154,7 +147,7 @@ function Team() {
                   <div className="col-sm-4">
                     <div className="team-member">
                       <img src={awni} className="img-fluid" />
-                      <h3>Awni </h3>
+                      <h3>Awni Altabaa</h3>
                       <p>Artificial Intelligence Developer</p>
                     </div>
                   </div>
