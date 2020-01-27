@@ -3,9 +3,11 @@ header.home-header {
     height: 100vh;
 
   }
-  .nav-offset {
-    margin-top: 120px !important;
-    margin-bottom: 40px !important;
+  @include media-breakpoint-down(lg) {
+    .nav-offset {
+      margin-top: 120px !important;
+      margin-bottom: 40px !important;
+    }
   }
   display: flex;
   .tagline {
