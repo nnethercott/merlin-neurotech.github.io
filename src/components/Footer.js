@@ -1,35 +1,37 @@
 import React from 'react';
 import Nav from './Nav';
+import Logo from '../assets/textandlogo.svg';
+import {Link} from "react-router-dom";
+import Facebook from '../assets/facebook.png';
 
 function Footer(props) {
 
     return (
-        <footer className="normal-footer">
-            <div class="row">
-            <nav class="navbar navbar-default footer">
-                <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"></button>
-                    <a class="navbar-brand" href="#">
+        <footer className="normal-footer off-white">
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-3">
+                  <img className="footer-logo" src={Logo} />
+                </div>
+                <div className="col-sm-6 my-auto">
+                  <div className="footer-links">
+                    <Link className="footer-link" to="/home">Home</Link>
+                    <Link className="footer-link" to="/team">Team</Link>
+                    <Link className="footer-link" to="/initiatives">Initiatives</Link>
+                    <Link className="footer-link" to="/contact">Contact</Link>
+                  </div>
+                </div>
+                <div className="col-sm-3 my-auto">
+                  <div className="footer-social">
+                    <a href="https://www.facebook.com/merlinneurotech/">
+                      <img className="footer-social-icon" src={Facebook} />
                     </a>
+                  </div>
                 </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                    <li class="foot-stylee">
-                        <a href="#">Apps</a>
-                    </li>
-                    </ul>
-
-                    <ul class="nav navbar-nav navbar-right nav-r">
-                    </ul>
-                </div>
-                </div>
-            </nav>
+              </div>
             </div>
-            
-            <h1>{props.title}</h1>
-        
-        </footer> 
+
+        </footer>
     );
 }
 export default Footer;
