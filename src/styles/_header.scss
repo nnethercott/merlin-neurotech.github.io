@@ -1,29 +1,23 @@
 header.home-header {
-  text-align: center;
   height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  .tagline {
+    font-size: 18px;
+  }
   img.brain-img {
-    width: 700px;
-    opacity: .5;
+    width: 70%;
+    opacity: .7;
     align-self: center;
+    @include media-breakpoint-down(sm) {
+      width: 60%;
+      margin-top: 32px;
+    }
+
   }
   .intro-heading {
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-bottom: 120px;
-    margin-left: 80px;
-    text-align: left;
-    max-width: 480px;
     h1 {
       font-weight: 700;
-      text-transform: uppercase;
-
+      font-size: 48px;
     }
   }
 }

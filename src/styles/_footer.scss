@@ -1,0 +1,24 @@
+footer.normal-footer {
+  padding: 40px 0;
+  .footer-logo {
+    width: 100px;
+  }
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .footer-link {
+      margin: auto 16px;
+      color: #000;
+    }
+  }
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    .footer-social-icon {
+      width: 24px;
+      border-radius: 2px;
+    }
+  }
+}
