@@ -5,6 +5,9 @@ import fullteam from '../assets/headshots/team.jpg';
 import lukas from '../assets/headshots/lukas.jpg';
 import julia from '../assets/headshots/julia.jpg';
 import abby from '../assets/headshots/abby.jpg';
+import shawn from '../assets/headshots/shawn.jpg';
+import sam from '../assets/headshots/sam.jpg';
+import cam from '../assets/headshots/cam.jpg';
 
 
 function Team() {
@@ -18,26 +21,44 @@ function Team() {
                     <div className="col-sm-4">
                     <br />
                         <p>
-                            Abigail Holland <br />
+                            <b> Abigail Holland </b> <br />
                             President <br />
                             <img src={abby} className="img-fluid" />
                             </p>  
+                            <br />
+                        <p>
+                            <b> Shawn Carere </b> <br />
+                            Backend Development Lead <br />
+                            <img src={shawn} className="img-fluid" />
+                            </p> 
                     </div>
                     <div className="col-sm-4">
                         <br />
                         <p>
-                            Julia Maine <br />
+                            <b> Julia Maine </b> <br />
                             Director of Operations <br />
                             <img src={julia} className="img-fluid" />
-                            </p>   
+                            </p>  
+                        <br /> 
+                        <p>
+                            <b> Sam White </b> <br />
+                            Backend Development Lead <br />
+                            <img src={sam} className="img-fluid" />
+                            </p> 
                     </div>
                     <div className="col-sm-4">
                     <br />
                         <p>
-                            Lukas Bauer <br />
+                            <b> Lukas Bauer </b> <br />
                             Director of Education <br />
                             <img src={lukas} className="img-fluid" />
                             </p>   
+                        <br /> 
+                        <p>
+                            <b> Cam McKay </b> <br />
+                            Backend Development Lead <br />
+                            <img src={cam} className="img-fluid" />
+                            </p> 
                     </div>
 
                 </div>
