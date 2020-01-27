@@ -9,6 +9,15 @@ import abby from '../assets/headshots/abby.jpg';
 import shawn from '../assets/headshots/shawn.jpg';
 import sam from '../assets/headshots/sam.jpg';
 import cam from '../assets/headshots/cam.jpg';
+import mike from '../assets/headshots/mike.jpg';
+import mo from '../assets/headshots/mo.jpg';
+import theo from '../assets/headshots/theo.jpg';
+import awni from '../assets/headshots/awnijpg';
+import josh from '../assets/headshots/josh.jpg';
+import derek from '../assets/headshots/derek.jpg';
+import nate from '../assets/headshots/nate.jpg';
+import umer from '../assets/headshots/umer.jpg';
+
 
 
 function Team() {
