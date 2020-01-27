@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import SubHeader from '../components/SubHeader';
-import lukas from '../assets/lukas.jpg';
+import edu from '../assets/edu.jpg';
 //import img_fluid from "../styles/bootstrap/_images.scss";
 
 function Initiatives() {
@@ -39,7 +39,7 @@ function Initiatives() {
                             Our past workshops have included...
                             Our upcoming workshops include...
                         </p>
-                        <img src={lukas} className="img-fluid" />
+                        <img src={edu} className="img-fluid" />
                     </div>
                 </div>
             </div>

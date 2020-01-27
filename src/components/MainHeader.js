@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './Nav';
-import lukas from '../assets/lukas.jpg'
+// import lukas from '../assets/lukas.jpg'
 function MainHeader(props) {
     //var lukas = (
     //    <img
