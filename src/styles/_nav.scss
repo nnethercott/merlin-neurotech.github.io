@@ -1,7 +1,87 @@
 nav.navbar {
+  z-index: 2;
+  .navbar-toggler {
+    &:focus {
+      outline: none;
+      border: none;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    &.toggled {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-color: $off-white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+  }
+  .interface {
+    display: flex;
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      .navbar-toggler {
+        margin-left: auto;
+      }
+      &.toggled {
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        .navbar-toggler {
+          padding-top: 12px;
+
+        }
+        .navbar-brand {
+          padding-top: 12px;
+        }
+      }
+    }
+
+  }
+  .mobile-container {
+    display: flex;
+    align-items: center;
+    .navbar-brand {
+
+    }
+    .navbar-toggler {
+      &:focus {
+        outline: none;
+        border: none;
+      }
+    }
+  }
+  .menu {
+    @include media-breakpoint-down(md) {
+      display: none;
+      &.toggled {
+
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
   .navbar-brand {
     .logo {
       width: 100px;
+    }
+  }
+  .navbar-toggler {
+    .bar {
+      background-color: #000;
+      width: 16px;
+      height: 2px;
+      display: block;
+      margin: 4px 0;
     }
   }
 }

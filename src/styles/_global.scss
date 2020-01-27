@@ -11,7 +11,11 @@ body {
     border-radius: 2px;
     margin: 16px 0;
 
-  
+  .contain {
+    display: flex;
+    width: 100%;
+    max-width: 1140px;
+  }
 
 
   }
@@ -68,5 +72,24 @@ body {
     .main-footer {
         height: 100px;
         background: darkblue;
+    }
+    section.partner-logos {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      .partner-logo {
+        height: 48px;
+      }
+    }
+    section.directives {
+      .directive-container {
+        max-width: 360px;
+        img {
+          margin-bottom: 16px;
+        }
+      }
+    }
+    .platform-img {
+      width: 300px;
     }
 }
