@@ -8,16 +8,26 @@ import abby from '../assets/headshots/abby.jpg';
 import shawn from '../assets/headshots/shawn.jpg';
 import sam from '../assets/headshots/sam.jpg';
 import cam from '../assets/headshots/cam.jpg';
+import mike from '../assets/headshots/mike.jpg';
+import mo from '../assets/headshots/mo.jpg';
+import theo from '../assets/headshots/theo.jpg';
+import awni from '../assets/headshots/awnijpg';
+import josh from '../assets/headshots/josh.jpg';
+import derek from '../assets/headshots/derek.jpg';
+import nate from '../assets/headshots/nate.jpg';
+import umer from '../assets/headshots/umer.jpg';
+
 
 
 function Team() {
     return (
         <div>
             <Header title="Our Team"/>
-            <SubHeader title="Our Team" />
+            <img src={fullteam} className="img-fluid" />
+            <SubHeader title="Executive Team" />
+
             <div className="container">
                 <div className="row">
-                    <img src={fullteam} className="img-fluid" />
                     <div className="col-sm-4">
                     <br />
                         <p>
@@ -28,7 +38,7 @@ function Team() {
                             <br />
                         <p>
                             <b> Shawn Carere </b> <br />
-                            Backend Development Lead <br />
+                            Artificial Intelligence Lead <br />
                             <img src={shawn} className="img-fluid" />
                             </p> 
                     </div>
@@ -60,8 +70,56 @@ function Team() {
                             <img src={cam} className="img-fluid" />
                             </p> 
                     </div>
-
                 </div>
+
+            </div>
+            <SubHeader title="Software Development Team" />
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-4">
+                    <br />
+                        <p>
+                            <b> Nate Nethercott </b> <br />
+                             <br />
+                            <img src={nate} className="img-fluid" />
+                            </p>  
+                            <br />
+                        <p>
+                            <b> Mike Kurdyla </b> <br />
+                             <br />
+                            <img src={mike} className="img-fluid" />
+                            </p> 
+                    </div>
+                    <div className="col-sm-4">
+                        <br />
+                        <p>
+                            <b>  </b> <br />
+                            Director of Operations <br />
+                            <img src={julia} className="img-fluid" />
+                            </p>  
+                        <br /> 
+                        <p>
+                            <b> Sam White </b> <br />
+                            Backend Development Lead <br />
+                            <img src={sam} className="img-fluid" />
+                            </p> 
+                    </div>
+                    <div className="col-sm-4">
+                    <br />
+                        <p>
+                            <b> Lukas Bauer </b> <br />
+                            Director of Education <br />
+                            <img src={lukas} className="img-fluid" />
+                            </p>   
+                        <br /> 
+                        <p>
+                            <b> Cam McKay </b> <br />
+                            Backend Development Lead <br />
+                            <img src={cam} className="img-fluid" />
+                            </p> 
+                    </div>
+                </div>
+
             </div>
         </div> 
     )
