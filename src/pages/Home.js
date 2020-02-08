@@ -58,7 +58,7 @@ function Home() {
                     <div className="narrow-text">
                     <h3>Our mission</h3>
                     <h2>Increase neurotechnology awareness and adoption</h2>
-                      <p>We, at Merlin Neurotechnology, see the opportunity to leverage
+                      <p>We at Merlin Neurotechnology see the opportunity to leverage
                         this niche market and establish Queen’s as a prominent new
                         centre for Neurotechnology. We see a future where Queen’s
                         graduates, armed with their classroom curriculum and the
@@ -68,10 +68,10 @@ function Home() {
                         Neurotechnology design teams in Canada affiliated with
                         NeurotechX. If we structure our growth correctly and
                         carefully, Queen’s will be poised to have graduates
-                        knowledgeable about this industry. While we, as an
-                        undergraduate design team, do not have the resources to
+                        knowledgeable about this industry. While we as an
+                        undergraduate design team do not have the resources to
                         create or these technologies or come up with the latest
-                        neuroscience breakthrough. We are able to find, train, and
+                        neuroscience breakthrough, we are able to find, train, and
                         foster an environment for some of the brightest and most
                         driven students on Queen’s Campus to get a step ahead and
                         learn skills that complement what they learn in the classroom
@@ -149,7 +149,19 @@ function Home() {
             <section className='directives off-white'>
               <div className="container">
                 <div className="row">
-                  <div className="col-sm-6 text-center ">
+                  <div className="col-sm-4 text-center ">
+                  <div className="directive-container mx-auto">
+                    <img className="feature-icon" src={F1} />
+                    <h3>Industry Affiliation</h3>
+                    <p>We are a chapter of NeurotechX, a global not-for-profit 
+                      focussed on the development and education of neurotechnology.
+                      We work with our partners to learn about industry standards,
+                      current research, and to get access to some of the latest 
+                      technologies. 
+                    </p>
+                    </div>
+                  </div>
+                  <div className="col-sm-4 text-center ">
                   <div className="directive-container mx-auto">
                     <img src={Education} />
                     <h3>Education</h3>
@@ -159,7 +171,7 @@ function Home() {
                     same training.</p>
                     </div>
                   </div>
-                  <div className="col-sm-6 text-center ">
+                  <div className="col-sm-4 text-center ">
                   <div className="directive-container mx-auto">
                     <img src={Projects} />
                     <h3>Projects</h3>
@@ -184,7 +196,7 @@ function Home() {
                   <p>Currently, there is no open-source code that programmers can use
                   to stream and apply filters to live brain signal data. Our two
                   API’s, BLE2LSL (Bluetooth Low Energy to Lab Streaming Layer) and
-                  Wizard Hat, do just that. We are enhancing our APIs to increase
+                  Streamstaff, do just that. We are enhancing our APIs to increase
                   functionality and accessibility. This will serve as a long-term
                   modular solution so that anyone, anywhere can build projects using
                   our platform. Furthermore, this is a unique learning opportunity

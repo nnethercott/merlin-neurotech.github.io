@@ -52,7 +52,7 @@ function Initiatives() {
                         <div className="col-sm-6">
                           <div className="feature-container">
                             <img className="feature-icon" src={F1} />
-                              <h3>Write something</h3>
+                              <h3>Coding Introduction</h3>
                               <p>Brain implants to directly link human minds to
                               computers. These are devices that allow people to control
                               software and devices using only their brain activity in real-time.</p>
@@ -61,8 +61,9 @@ function Initiatives() {
                           <div className="col-sm-6">
                             <div className="feature-container">
                               <img className="feature-icon" src={F2} />
-                              <h3>Write more</h3>
-                              <p>Prevent accidents and improve the effeciency of transportation by anticipating drivers’ actions in real time.</p>
+                              <h3>BCI Introduction</h3>
+                              <p>An overview of neurotechnology for student populations to give them insight and intuition
+                                on neuroscience software development and how the field may develop. </p>
                             </div>
                           </div>
                         </div>
@@ -80,7 +81,7 @@ function Initiatives() {
                         <div className="narrow-text">
                           <h3>Get involved</h3>
                           <h2>Upcoming Events</h2>
-                          <p>We offer a series of events throughout the semester which are a great intro to the neuro space!</p>
+                          <p>We offer a series of events throughout the semester which are a great intro to the neurotech space!</p>
                           <a href="https://www.facebook.com/merlinneurotech/">More details</a>
                         </div>
                       </div>
