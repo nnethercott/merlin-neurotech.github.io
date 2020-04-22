@@ -1,4 +1,5 @@
 {
+  "homepage": "http://merlin-neurotech.github.io/merlin-neurotech/",
   "name": "merlin",
   "version": "0.1.0",
   "private": true,
@@ -7,16 +8,23 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "cryptiles": "^4.1.3",
     "gltfjsx": "0.0.6",
+    "node-modules": "^1.0.1",
     "node-sass": "^4.13.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "node.js": "0.0.1-security",
+    "react": "^16.13.1",
+    "react-dev-utils": "^10.2.1",
+    "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
+    "react-scripts": "^3.4.0",
     "react-three-fiber": "^4.0.11",
-    "three": "^0.112.1"
+    "three": "^0.112.1",
+    "typescript": "^3.8.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-page -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

@@ -51,15 +51,6 @@ function Team() {
                 </div>
               </div>
             </section>
-            <section className="group-photo">
-              <div className="container">
-                <div className="row">
-                  <div className="col-sm-12">
-                    <img src={fullteam} className="img-fluid" />
-                  </div>
-                </div>
-              </div>
-            </section>
             <section className="team-members">
               <div className="container">
                 <div className="row">
@@ -67,14 +58,14 @@ function Team() {
                     <div className="team-member">
                       <img src={shawn} className="img-fluid" />
                       <h3>Shawn Carere</h3>
-                      <p>Backend Development Lead</p>
+                      <p>Backend Development Director</p>
                     </div>
                   </div>
                   <div className="col-sm-4">
                     <div className="team-member">
                       <img src={sam} className="img-fluid" />
                       <h3>Sam White</h3>
-                      <p>Backend Development Lead</p>
+                      <p>Backend Development Director</p>
                     </div>
                   </div>
                   <div className="col-sm-4">
@@ -83,6 +74,15 @@ function Team() {
                       <h3>Cam McKay</h3>
                       <p>Backend Development Lead</p>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className="group-photo">
+              <div className="container">
+                <div className="row">
+                  <div className="col-sm-12">
+                    <img src={fullteam} className="img-fluid" />
                   </div>
                 </div>
               </div>
@@ -99,35 +99,15 @@ function Team() {
                   </div>
                   <div className="col-sm-4">
                     <div className="team-member">
-                      <img src={mo} className="img-fluid" />
-                      <h3>Mohammad Rashid </h3>
-                      <p>Backend Developer</p>
-                    </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="team-member">
                       <img src={theo} className="img-fluid" />
                       <h3>Theo Raptis </h3>
                       <p>Backend Developer</p>
                     </div>
                   </div>
-                </div>
-              </div>
-            </section>
-            <section className="team-members">
-              <div className="container">
-                <div className="row">
-                  <div className="col-sm-6">
+                  <div className="col-sm-4">
                     <div className="team-member">
                       <img src={josh} className="img-fluid" />
                       <h3>Josh Kanattu</h3>
-                      <p>Backend Developer</p>
-                    </div>
-                  </div>
-                  <div className="col-sm-6">
-                    <div className="team-member">
-                      <img src={derek} className="img-fluid" />
-                      <h3>Derek Zhang </h3>
                       <p>Backend Developer</p>
                     </div>
                   </div>
@@ -153,9 +133,9 @@ function Team() {
                   </div>
                   <div className="col-sm-4">
                     <div className="team-member">
-                      <img src={umer} className="img-fluid" />
-                      <h3>Umer Kamran</h3>
-                      <p>Artificial Intelligence Developer</p>
+                      <img src={derek} className="img-fluid" />
+                      <h3>Derek Zhang </h3>
+                      <p>Backend Developer</p>
                     </div>
                   </div>
                 </div>
