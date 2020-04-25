@@ -10,7 +10,7 @@ import F2 from '../assets/f2.png';
 import Stock1 from '../assets/stock1.jpg';
 import Monetization from '../assets/monetization.svg';
 import Running from '../assets/running.svg';
-import SmartWatch from '../assets/smart-watch.jpg';
+import MuseSetup from '../assets/Muse sponsor.jpg';
 import Cns from '../assets/logos/cns.png';
 import Interaxon from '../assets/logos/interaxon.png';
 import Ntx from '../assets/logos/ntx.png';
@@ -141,7 +141,7 @@ function Home() {
                     </div>
                   </div>
                   <div className="col-lg-6 my-auto text-center">
-                    <img className="section-img" src={SmartWatch} />
+                    <img className="section-img" src={MuseSetup} />
                   </div>
                 </div>
               </div>
