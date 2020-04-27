@@ -17,7 +17,7 @@ import ContactForm from './components/ContactForm';
 
 function App() {
   return (
-    <Router basename = "/merlin-neurotech">
+    <Router basename="/">
       <div className="App">
         <Switch>
 
